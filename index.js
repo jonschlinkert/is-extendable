@@ -8,5 +8,6 @@
 'use strict';
 
 module.exports = function isExtendable(val) {
-  return val !== null && typeof val === 'object' || typeof val === 'function';
+  return typeof val !== 'undefined' && val !== null
+    && (typeof val === 'object' || typeof val === 'function');
 };
