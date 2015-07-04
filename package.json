@@ -1,7 +1,7 @@
 {
   "name": "is-extendable",
   "description": "Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. \"can the value have keys?\"",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/is-extendable",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/is-extendable",
@@ -34,5 +34,18 @@
     "object",
     "regex",
     "test"
-  ]
+  ],
+  "verbiage": {
+    "related": {
+      "list": [
+        "isobject",
+        "is-plain-object",
+        "kind-of",
+        "is-extendable",
+        "is-equal-shallow",
+        "extend-shallow",
+        "assign-deep"
+      ]
+    }
+  }
 }
