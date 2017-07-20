@@ -1,6 +1,6 @@
 {
   "name": "is-extendable",
-  "description": "Returns true if a value is any of the object types: array, regexp, plain object, function or date. This is useful for determining if a value can be extended, e.g. \"can the value have keys?\"",
+  "description": "Returns true if a value is a plain object, array or function.",
   "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/is-extendable",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
@@ -19,8 +19,12 @@
   "scripts": {
     "test": "mocha"
   },
+  "dependencies": {
+    "is-plain-object": "^2.0.4"
+  },
   "devDependencies": {
-    "mocha": "*"
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.4.2"
   },
   "keywords": [
     "array",
@@ -28,6 +32,7 @@
     "check",
     "date",
     "extend",
+    "extendable",
     "extensible",
     "function",
     "is",
@@ -35,17 +40,26 @@
     "regex",
     "test"
   ],
-  "verbiage": {
+  "verb": {
     "related": {
       "list": [
-        "isobject",
-        "is-plain-object",
-        "kind-of",
-        "is-extendable",
+        "assign-deep",
         "is-equal-shallow",
-        "extend-shallow",
-        "assign-deep"
+        "is-plain-object",
+        "isobject",
+        "kind-of"
       ]
+    },
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
     }
   }
 }
