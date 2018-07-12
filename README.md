@@ -43,7 +43,7 @@ Also note that an `extendable` object is not the same as an [extensible object](
 
 ### Related projects
 
-* [assign-deep](https://www.npmjs.com/package/assign-deep): Deeply assign the enumerable properties and/or es6 Symbol properies of source objects to the target… [more](https://github.com/jonschlinkert/assign-deep) | [homepage](https://github.com/jonschlinkert/assign-deep "Deeply assign the enumerable properties and/or es6 Symbol properies of source objects to the target (first) object.")
+* [assign-deep](https://www.npmjs.com/package/assign-deep): Deeply assign the enumerable properties and/or es6 Symbol properties of source objects to the target… [more](https://github.com/jonschlinkert/assign-deep) | [homepage](https://github.com/jonschlinkert/assign-deep "Deeply assign the enumerable properties and/or es6 Symbol properies of source objects to the target (first) object.")
 * [is-equal-shallow](https://www.npmjs.com/package/is-equal-shallow): Does a shallow comparison of two objects, returning false if the keys or values differ. | [homepage](https://github.com/jonschlinkert/is-equal-shallow "Does a shallow comparison of two objects, returning false if the keys or values differ.")
 * [is-plain-object](https://www.npmjs.com/package/is-plain-object): Returns true if an object was created by the `Object` constructor. | [homepage](https://github.com/jonschlinkert/is-plain-object "Returns true if an object was created by the `Object` constructor.")
 * [isobject](https://www.npmjs.com/package/isobject): Returns true if the value is an object and not an array or null. | [homepage](https://github.com/jonschlinkert/isobject "Returns true if the value is an object and not an array or null.")
