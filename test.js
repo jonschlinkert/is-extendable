@@ -5,11 +5,9 @@
  * Released under the MIT License.
  */
 
-'use strict';
-
-require('mocha');
-var assert = require('assert');
-var isExtendable = require('./');
+import 'mocha';
+import assert from 'node:assert';
+import isExtendable from './index.js';
 
 describe('isExtendable', function() {
   it('should return true when a value is an object:', function() {

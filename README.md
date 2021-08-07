@@ -13,7 +13,7 @@ $ npm install --save is-extendable
 ## Usage
 
 ```js
-var isExtendable = require('is-extendable');
+import isExtendable from 'is-extendable';
 ```
 
 Returns true if the value is any of the following:

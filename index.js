@@ -5,10 +5,8 @@
  * Released under the MIT License.
  */
 
-'use strict';
+import {isPlainObject} from 'is-plain-object';
 
-var isPlainObject = require('is-plain-object');
-
-module.exports = function isExtendable(val) {
+export default function isExtendable(val) {
   return isPlainObject(val) || typeof val === 'function' || Array.isArray(val);
 };
