@@ -7,7 +7,7 @@
 
 'use strict';
 
-var isPlainObject = require('is-plain-object');
+var { isPlainObject } = require('is-plain-object');
 
 module.exports = function isExtendable(val) {
   return isPlainObject(val) || typeof val === 'function' || Array.isArray(val);
