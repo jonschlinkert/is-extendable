@@ -22,11 +22,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "is-plain-object": "^2.0.4"
+    "is-plain-object": "^5.0.0"
   },
   "devDependencies": {
-    "gulp-format-md": "^1.0.0",
-    "mocha": "^3.4.2"
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^9.1.0"
   },
   "keywords": [
     "array",
